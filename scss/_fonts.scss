@@ -1,0 +1,57 @@
+$fonts: (
+  poppins: 'Poppins',
+  work: 'Work Sans',
+);
+
+@mixin claim{
+  font-family: map-get($fonts, poppins);
+  font-size: 96px;
+  line-height: 96px;
+  font-weight: 700;
+  color: #000;
+}
+
+@mixin cursor{
+  font-family: map-get($fonts, poppins);
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: 200;
+}
+
+@mixin subClaim{
+  font-family: map-get($fonts, work);
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+@mixin copy{
+  font-family: map-get($fonts, work);
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+@mixin link{
+  font-family: map-get($fonts, work);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #083D77;
+}
+
+@mixin menu{
+  font-family: map-get($fonts, work);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+@mixin projects{
+  font-family: map-get($fonts, work);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000000;
+}
